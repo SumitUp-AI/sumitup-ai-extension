@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SumitUp Web Extension",
+  "version": "1.0",
+  "description": "Record audio from a meeting tab like Zooms, Meet, Teams",
+  "permissions": ["tabs", "tabCapture", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
